@@ -1,0 +1,31 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;
+}
+
+#container {
+    width: 500px;
+    height: 700px;
+    background: blanchedalmond;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#title {
+    color: cornflowerblue;
+    font-size: 60px;
+}
+
+#sub {
+    margin-top: -50;
+    color: crimson;
+}
+
+#calculator {
+    width: 318px;
+    height: 540px;
+    background-image: url(/images/kidcal.png);
+    background-color: blanchedalmond;
+    margin: 0px auto;
+    position: relative;
+}
