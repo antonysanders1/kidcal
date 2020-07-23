@@ -24,7 +24,7 @@ body {
 #calculator {
     width: 318px;
     height: 540px;
-    background-image: url(/images/kidcal.png);
+    background-image: url(Ubuntu/home/antonysanders1/projects/kidcal/images/kidcal.png);
     background-color: blanchedalmond;
     margin: 0px auto;
     position: relative;
@@ -67,14 +67,17 @@ body {
     border-radius: 20%;
     margin: 3px;
     float: left;
+    cursor: pointer;
 }
 
 .operator {
     background-color: darkgray;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .number {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bolder;
     color: skyblue;
     background-color: white;
@@ -83,4 +86,34 @@ body {
 #equal {
     width: 108px;
     border-radius: 10%;
+}
+
+.operator:active,
+.number:active {
+    font-size: 12px;
+}
+
+.operator:focus,
+.number:focus {
+    outline: 0;
+}
+
+button:nth-child(4) {
+    background-color: #20b2aa;
+}
+
+button:nth-child(8) {
+    background-color: #ffa500;
+}
+
+button:nth-child(12) {
+    background-color: #f08080;
+}
+
+button:nth-child(16) {
+    background-color: #7d93e0;
+}
+
+button:nth-child(19) {
+    background-color: #9477af;
 }
